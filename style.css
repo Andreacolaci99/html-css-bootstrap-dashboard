@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#head_text{
+    display: flex;
+    margin: 40px auto;
+    justify-content: space-between;
+    max-width: 900px;
+    
+}
+
+button {
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 20%;
+}
