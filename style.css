@@ -12,9 +12,8 @@
     
 }
 
-button {
-    padding: 10px;
-    background-color: dodgerblue;
-    color: white;
-    border-radius: 20%;
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -38,7 +38,8 @@
                 </div>       <!-- End Nav Bar -->
                 <div id="head_text">
                   <h1>Catalogo Libri</h1>
-                  <button>Aggiungi Libro</button>
+                  <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+                  <label class="btn btn-primary d-flex" for="btn-check">Aggiungi Libro</label>
                 </div>
                 <div>      <!-- Start Body-->
                   <div class="container text-center border-bottom fw-bold">
@@ -68,11 +69,12 @@
                         -
                       </div>
                       <div class="col-2 bg-success">
-                        Disponibile
+                        <input type="radio" class="btn-check" name="options-outlined" id="success-outlined" autocomplete="off" checked>
+                      <label class="btn btn-outline-success btn-sm" for="success-outlined">Disponibile</label>
                       </div>
                       <div class="col-2">
-                        <i class="bi bi-pencil"></i>
-                        <i class="bi bi-trash"></i>
+                        <i class="bi bi-pencil-fill"></i>
+                        <i class="bi bi-trash-fill"></i>
                       </div>
                     </div>
                   </div>
