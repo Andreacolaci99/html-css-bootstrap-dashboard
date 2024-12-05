@@ -3,13 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-#head_text{
+#head_text {
     display: flex;
     margin: 40px auto;
     justify-content: space-between;
     max-width: 900px;
-    
+}
+
+#table_container {
+    display: flex;
+    margin: 40px auto;
+    justify-content: space-between;
+    max-width: 900px;
 }
 
 .d-flex {
